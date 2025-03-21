@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Start DOSBox Staging, mount the directory, and launch Turbo C
+dosbox-staging -c "MOUNT C ~/Documents/linux/games/voidtetris" \
+               -c "C:" \
+               -c "CD TURBO-C\\TURBOC3\\BIN" \
+               -c "TC.EXE"
